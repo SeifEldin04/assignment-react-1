@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: #2C3E50;
+}
+
+.beforeFooter {
+  background-color: #2C3E50;
+}
+
+.homePage {
+  height: 100vh;
+  background-color: #1ABC9C;
+}
+
+.icons {
+  width: 50%;
+  margin: auto;
+}
+
+.icons i {
+  /* background-color: aqua; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #1A252F;
+}
+
+.aboutPage {
+  background-color: #1ABC9C;
+  height: 100vh;
+}
+
+.portfolioH1 {
+  color: #2C3E50;
+}
+
+.photoContent {
+  position: relative;
+  cursor: pointer;
+}
+
+.photoLayer {
+  font-size: 125px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1ABC9C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+.photoContent:hover .photoLayer {
+  opacity: 0.8;
+}
+
+.portfolioLayer {
+  height: 900px;
+  width: 100%;
+  background-color: RGBA(13, 110, 253, 0.25);
+  position: fixed;
+}
+
+.showLayer {
+  width: 40%;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 30px;
+  top: 80px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.notfoundPage {
+  height: 100vh;
+}
+
+.contactPage {
+  height: 100vh;
+}
+
+.contactH1 {
+  color: #2C3E50;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-bottom: solid #d7d7d7 1px;
+  border-radius: 3px;
+}
+
+input:focus {
+  transform: scale(1.03);
+  transition: transform 0.2s;
+  border-bottom: solid #d7d7d7 1px;
+}
+
+label {
+  color: #1ABC9C
+}
+
+.active{
+  background-color: #1ABC9C !important;
+  border-radius: 5px !important;
+}
